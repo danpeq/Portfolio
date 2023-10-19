@@ -10,10 +10,10 @@ const WorkCard = (props) => {
         <div className="pro-details">
           <p>{props.text}</p>
           <div className="pro-btns">
-            <a target="_blank" href="https://mika-studio-nails.vercel.app/" to={props.view} 
+            <NavLink target="_blank" to={props.view} 
                 className="btn">
                 View
-            </a>
+            </NavLink>
           </div>
         </div>
     </div>

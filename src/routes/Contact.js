@@ -6,6 +6,7 @@ import Form from "../components/Form";
 
 const Contact = () => {
   return (
+    
     <div>
       <Navbar />
       <HeroImg2 heading="CONTACT" text="You can send me an email"/>
